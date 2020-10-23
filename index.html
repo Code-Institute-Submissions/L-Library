@@ -6,8 +6,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <meta name="viewport" content="width=device-width">
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <script type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript" src="http://openlibrary.org/search.json?q=the+lord+of+the+rings"></script>-->
+    <script type="text/javascript" src="assets/js/search.js"></script>
     <title>L-Library</title>
 </head>
 <body>
@@ -44,15 +46,17 @@
                 <div class="col">
 
                     <h1 class="text-center">Search</h1>
-                    <form id="search-form" autocomplete="off">
-                        <div class="form-group">
-                            <input type="text" id="search" class="form-control" placeholder="keywords" oninput="fetchGitHubInformation()">
-                            <div id="ol-data" class="clearfix"></div>
+                    
+                        <div class="center-form">
+                            <input type="text" id="gh-username" value="octocat" oninput="fetchGitHubInformation()">
+                            <div id="gh-user-data" class="clearfix"></div>
+                            <div id="gh-repo-data" class="clearfix"></div>
                         </div>
-                        <div class="form-group"> 
+
                         <button type="button" class="btn btn-secondary btn-lg btn-block">Search</button>
-                        </div>
-                    </form>
+
+
+
                 </div>
             </div>
     </section>
