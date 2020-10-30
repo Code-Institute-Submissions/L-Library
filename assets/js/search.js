@@ -1,6 +1,6 @@
 var libSearch;
 
-var url = "http://openlibrary.org/search.json?q=sherlock+holmes";
+var url = "http://openlibrary.org/search.json?q=title+author_name+edition_count+publisher";
 
 function setup() {
     createCanvas (400, 200);
@@ -11,9 +11,9 @@ function gotData(data) {
     printIn(data);
 }
 
-function draw () {
+`function draw () {
     background (0);
 
-}
+}`
 
 
