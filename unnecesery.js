@@ -92,4 +92,15 @@ function fetchGitHubInformation(event) {
         });
 }
 
-$(document).ready(fetchGitHubInformation);
+
+
+
+
+
+<script>
+function myFunc(myObj) {
+  document.getElementById("demo").innerHTML = myObj.name;
+}
+</script>
+
+oninput="fetchOpenInformation()
