@@ -16,10 +16,10 @@ function gotData(data) {
     printIn(data);
 }
 
-`function draw () {
+function draw () {
     background (0);
 
-}`
+}
 
 function fetchOpenInformation(event) {
     $("#library_search").html("http://openlibrary.org/search.json?q=title+author_name+edition_count+publisher");
@@ -64,6 +64,6 @@ function fetchOpenInformation(event) {
 }
 
 
-$(document).ready(fetchOpenInformation);
+$(data).ready(fetchOpenInformation);
 
 
