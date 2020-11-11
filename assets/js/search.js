@@ -64,6 +64,6 @@ function fetchOpenInformation(event) {
 }
 
 
-$(data).ready(fetchOpenInformation);
+
 
 
