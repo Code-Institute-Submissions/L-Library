@@ -3,6 +3,7 @@
 
 
 html, body {
+    scroll-behavior: smooth;
     height: 100vh;
 
     background: url('../images/giphy.gif') no-repeat bottom right fixed;
@@ -17,6 +18,11 @@ html, body {
     justify-content: center;
 
     position: relative;
+}
+
+
+.navbar {
+    position: sticky;
 }
 
 .navbar-brand, .nav-link, .about-us-heading, .search-heading, .help-heading {
