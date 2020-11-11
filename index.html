@@ -48,15 +48,18 @@
             </div>
         </nav>   
     </header>
-    <section id="aboutUs" class="container-fluid">
+    <section id="aboutUs">
+        <div class="container-fluid">
             <div class="row no-gutters justify-content-center align-items-center">
                 <div class="col-4">
                    <h1 class="about-us-heading align-text-center">About us</h1>
                    <p class="about-us">some text some text some text some text some text</p>
                 </div>
             </div>
+        </div>
     </section>
-    <section id="aSearch" class="container-fluid">
+    <section id="aSearch">
+        <div class="container-fluid">
             <div class="row no-gutters justify-content-center align-items-center">
                 <div class="col-4">
 
@@ -74,21 +77,24 @@
 
                 </div>
             </div>
+        </div>
     </section>
-    <section class="container-fluid">
-        <div class="row no-gutters justify-content-center align-items-center">
-            <div class="col-4">
-                <h1 class="help-heading align-text-center">Help</h1>
-                <p class="help align-text-center">Together We Can Find A Solution!</p>
-            </div>
-            <div class="center-form justify-content-center align-items-center">
-                <form onsubmit="return sendMail(this);">
-                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                    <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Report an Issue" required></textarea>
-                    <button type="submit" class="btn btn-secondary center-block">Send</button>
-                </form>
+    <section id="help">
+        <div class="container-fluid">
+            <div class="row no-gutters justify-content-center align-items-center">
+                <div class="col-4">
+                    <h1 class="help-heading align-text-center">Help</h1>
+                    <p class="help align-text-center">Together We Can Find A Solution!</p>
+                </div>
+                <div class="center-form justify-content-center align-items-center">
+                    <form onsubmit="return sendMail(this);">
+                        <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                        <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Report an Issue" required></textarea>
+                        <button type="submit" class="btn btn-secondary center-block">Send</button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
