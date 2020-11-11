@@ -25,7 +25,7 @@ function fetchOpenInformation(event) {
     $("#library_search").html("http://openlibrary.org/search.json?q=title+author_name+edition_count+publisher");
     
 
-    var information = $("#library_search").val();
+    var data = $("#library_search").val();
     if (!data) {
         $("#library_search").html(`<h2>Please enter a keyword</h2>`);
         return;
