@@ -19,7 +19,7 @@ html, body {
     position: relative;
 }
 
-.navbar-brand, .nav-link {
+.navbar-brand, .nav-link, .about-us-heading, .search-heading, .help-heading {
     font-family: Playfair+Display, sans-serif;
     font-size: 200;
     text-align: center;
