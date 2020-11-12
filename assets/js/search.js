@@ -61,9 +61,10 @@ function fetchOpenInformation(event) {
                     `<h2>Error: ${errorResponse.responseJSON.message}</h2>`);
             }
         });
-}
+};
 
 
 
 
 
+console.log(data);
