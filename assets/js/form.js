@@ -1,19 +1,17 @@
-console.log ("hello");
-  
-  
-  //function sendMail(contactForm) {
-    //emailjs.send("gmail", "rosie", {
-        //"from_name": contactForm.name.value,
-        //"from_email": contactForm.emailaddress.value,
-        //"project_request": contactForm.projectsummary.value
-    //})
-    //.then(
-        //function(response) {
-            //console.log("SUCCESS", response);
-        //},
-        //function(error) {
-            //console.log("FAILED", error);
-        //}
-    //);
-    //return false;  // To block from loading a new page
-//}
+  function sendMail(helpForm) {
+    emailjs.send("gmail", "template_rq2dfbn", {
+        "from_name": helpForm.name.value,
+        "message": helpForm.issueReport.value,
+        "from_email": helpForm.emailaddress.value
+        
+    })
+    .then(
+        function(response) {
+            console.log("SUCCESS", response);
+        },
+        function(error) {
+            console.log("FAILED", error);
+        }
+    );
+    return false;  // To block from loading a new page
+}
