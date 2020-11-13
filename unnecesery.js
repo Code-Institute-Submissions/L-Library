@@ -173,3 +173,12 @@ function fetchOpenInformation(event) {
             }
         });
 };
+
+
+
+
+ <script>
+            function setup(getJSON) {
+                    data.getElementById("#library_search").innerHTML = getJSON.name;
+            }
+    </script>
