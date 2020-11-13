@@ -13,6 +13,18 @@
     <script type="text/javascript" src="https://openlibrary.org/search.json?q=title+author_name+edition_count+publisher"></script>
     <script type="text/javascript" src="assets/js/search.js"></script>
     <title>L-Library</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("user_eI0ptC7IdwNkp9iGGO6MY");
+            emailjs.send("gmail", "template_rq2dfbn", {
+                name: "Luka",
+                notes: "I cant find the book..."
+            })
+        })();
+    </script>
 </head>
 <body>
     <header id="header" class="justify-content-center align-items-center">
