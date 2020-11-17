@@ -1,6 +1,4 @@
-  console.log("hi");
-  
-  /*function sendMail(helpForm) {
+  function sendMail(helpForm) {
     emailjs.send("gmail", "template_rq2dfbn", {
         "from_name": helpForm.name.value,
         "message": helpForm.issueReport.value,
