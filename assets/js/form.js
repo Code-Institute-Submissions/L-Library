@@ -1,9 +1,10 @@
   function sendMail(helpForm) {
     emailjs.send("gmail", "template_rq2dfbn", {
-        "from_name": helpForm.name.value,
-        "message": helpForm.issueReport.value,
-        "from_email": helpForm.emailaddress.value
+        from_name: "helpForm.name.value",
+        from_email: "helpForm.emailaddress.value",
+        message:"helpForm.issueReport.value"
         
+            
     })
     .then(
         function(response) {
@@ -14,4 +15,6 @@
         }
     );
     return false;  // To block from loading a new page
-}
+} 
+  
+ 
