@@ -1,12 +1,12 @@
 
 
 /*function setup() {
-    getJSON (`http://openlibrary.org/search.json?q=title+author_name+edition_count+publisher`, gotData);
+    getJSON (`http://openlibrary.org/search.json?title=the+lord+of+the+rings&author_name=J.+R.+R.+Tolkien&edition_count=131`, gotData);
     createCanvas (200, 200);
 return `
     <h2>${title}, ${author_name}, ${edition_count}, ${publisher}
             <span class="small-title">
-                (@<a href="${title.html_url}, ${author_name}, ${edition_count}, ${publisher}" target="_blank">title,author_name, edition_count, publisher</a>)
+                (@<a href="${title.html_url}, ${author_name}, ${edition_count}" target="_blank">title,author_name, edition_count</a>)
             </span>
     </h2>`   
     
@@ -22,7 +22,7 @@ function draw () {
 }
 
 function fetchOpenInformation(event) {
-    $("#library_search").html("http://openlibrary.org/search.json?q=title+author_name+edition_count+publisher");
+    $("#library_search").html("http://openlibrary.org/search.json?title=the+lord+of+the+rings&author_name=J.+R.+R.+Tolkien&edition_count=131");
     
 
     var data = $("#library_search").val();
@@ -39,8 +39,7 @@ function fetchOpenInformation(event) {
     $.when(
         $.getJSON(`http://openlibrary.org/search.json?q=title${title}`),
         $.getJSON(`http://openlibrary.org/search.json?q=author_name${author_name}`),
-        $.getJSON(`http://openlibrary.org/search.json?q=edition_count${edition_count}`),
-        $.getJSON(`http://openlibrary.org/search.json?q=publisher${publisher}`),          
+        $.getJSON(`http://openlibrary.org/search.json?q=edition_count${edition_count}`),          
         ).then(
         function(response) {
             var data = response[0];
