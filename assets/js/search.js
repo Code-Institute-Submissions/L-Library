@@ -1,12 +1,10 @@
-
-
-/*function setup() {
+function setup() {
     getJSON (`http://openlibrary.org/search.json?title=the+lord+of+the+rings&author_name=J.+R.+R.+Tolkien&edition_count=131`, gotData);
     createCanvas (200, 200);
 return `
     <h2>${title}, ${author_name}, ${edition_count}, ${publisher}
             <span class="small-title">
-                (@<a href="${title.html_url}, ${author_name}, ${edition_count}" target="_blank">title,author_name, edition_count</a>)
+                (@<a href="${title.html_url}, ${author_name}, ${edition_count}" target="_blank">title,author_name,edition_count</a>)
             </span>
     </h2>`   
     
@@ -66,4 +64,3 @@ function fetchOpenInformation(event) {
 
 
 
-console.log(data);
