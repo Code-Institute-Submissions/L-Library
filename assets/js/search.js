@@ -1,65 +1,15 @@
-function setup() {
-    getJSON (`http://openlibrary.org/search.json?title=the+lord+of+the+rings&author_name=J.+R.+R.+Tolkien&edition_count=131`, gotData);
-    createCanvas (200, 200);
-return `
-    <h2>${title}, ${author_name}, ${edition_count}, ${publisher}
-            <span class="small-title">
-                (@<a href="${title.html_url}, ${author_name}, ${edition_count}" target="_blank">title,author_name,edition_count</a>)
-            </span>
-    </h2>`   
-    
+function getInformation(){
+    document.getElementById(`output`).innerHTML="";
+    fetch("http://openlibrary.org/search.json?q="+document.getElementById(`input`).value)
+    createCanvas(200,200)
+    .then(a=>a.json())
+    .then(response=>{
+        for(var i=0;i<5;i++){
+            document.getElementById(`output`).innerHTML+="<h2>"+response.docs[i].title+"</h2>"+response.docs[i].author_name[0]+"<br><img src=`http://covers.openlibrary.org/b/isb"+response.docs[i].isbn[0]+"-M.jpg`/><br>"
+        }
+    });
 }
-
-function gotData(data) {
-    printIn(data);
-}
-
-function draw () {
-    background (0);
-
-}
-
-function fetchOpenInformation(event) {
-    $("#library_search").html("http://openlibrary.org/search.json?title=the+lord+of+the+rings&author_name=J.+R.+R.+Tolkien&edition_count=131");
-    
-
-    var data = $("#library_search").val();
-    if (!data) {
-        $("#library_search").html(`<h2>Please enter a keyword</h2>`);
-        return;
-    }
-
-    $("#library_search").html(
-        `<div id="loader">
-            <img src="assets/css/loader.gif" alt="loading..." />
-        </div>`);
-
-    $.when(
-        $.getJSON(`http://openlibrary.org/search.json?q=title${title}`),
-        $.getJSON(`http://openlibrary.org/search.json?q=author_name${author_name}`),
-        $.getJSON(`http://openlibrary.org/search.json?q=edition_count${edition_count}`),          
-        ).then(
-        function(response) {
-            var data = response[0];
-            
-            $("#library_search").html(InformationHTML(data));
-            
-        },
-        function(errorResponse) {
-            if (errorResponse.status === 404) {
-                $("#library_search").html(
-                    `<h2>No info found for user ${title}</h2>`);
-            } else if (errorResponse.status === 403) {
-                var resetTime = new Date(errorResponse.getResponseHeader('X-RateLimit-Reset') * 1000);
-                $("#library_search").html(`<h4>Too many requests, please wait until ${resetTime.toLocaleTimeString()}</h4>`);
-            }  else {
-                console.log(errorResponse);
-                $("#library_search").html(
-                    `<h2>Error: ${errorResponse.responseJSON.message}</h2>`);
-            }
-        });
-};
-
+   
 
 
 
