@@ -1,43 +1,55 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+##L-Library
+######Milstone Project 2: Interacted Fronted Development - Code Institute
 
-Welcome Laura Kubiliene,
+The project is made for general audience to use the site as inspirational and motivational start,
+continuing with confidently using it as a source of knowledge, or to benefit one’s studies,
+or to have some fun reading.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+##UX
 
-## Gitpod Reminders
+As the site was built to meet simple aims of communication and information, the structure is simple
+and meeting the needs of those working on study projects as well as those who consider being just a reader.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+##User Stories
 
-`python3 -m http.server`
+##Strategy
 
-A blue button should appear to click: *Make Public*,
+The goal in the design was to make it easy to navigate as well as to fill it with a useful features
+(like adding advanced search or help form) and information for users.
 
-Another blue button should appear to click: *Open Browser*.
+##Scope
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The site is structured to easily navigate the world of literature as well as find particular subject one searches for.
 
-A blue button should appear to click: *Make Public*,
+##Structure
 
-Another blue button should appear to click: *Open Browser*.
+The site structure is based on ergonomics, 
+so it is to take the customer to the information one’s searching without having to scroll through
+any unnecessary documents, reading texts that are advertising or filing the forms that appear to be unnecessary. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+##Sceleton
 
-## Updates Since The Instructional Video
+Using Balsamiq these wireframes were created to support the idea of a site.
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+##Surface
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+The colour palette that was chosen for the project is deliberately contrasting and quite modest in the shades used. Pinterest platform is used to find out matching colour palette.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+##Technologies
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+HTML – to create the foundation of a site.
+CSS – to create visually pleasant web page.
+JavaScript – to make it more interactive.
+API
+jSon
+Bootstrap – to make it responsive.
+Balsamiq – to create sketches of a future site.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+##Features
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+##Features left to implement
 
---------
-
-Happy coding!
+The features that have to be added is: a possibility to chat (between members, or getting online consultation), 
+possibility of becoming a member (that can be done just by signing in), 
+possibility of becoming a sponsor or advanced member (that have to pay for membership and have some advanced benefits).
