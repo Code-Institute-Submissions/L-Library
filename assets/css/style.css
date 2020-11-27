@@ -31,20 +31,23 @@ html, body {
     font-size: 200;
     text-align: center;
     color: whitesmoke;
+    opacity: 1.0;
 }
 
 .name {
     text-align: center;
     font-size: 500;
-    
+    opacity: 1.0;
 }
 
 .help,.aboutUs {
     color: whitesmoke;
+    opacity: 1.0;
 }
 
 
 
 #library_search {
     width: 100%;
+    opacity: 1.0;
 }
