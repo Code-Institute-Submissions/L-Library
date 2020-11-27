@@ -35,6 +35,7 @@ https://drive.google.com/file/d/1WHe8Y-yPn44CRQOZCXqYZrR9lqtLl93O/view?usp=shari
 ##Surface
 
 The colour palette that was chosen for the project is deliberately contrasting and quite modest in the shades used. Pinterest platform is used to find out matching colour palette.
+the background gif was taken from giphy.com
 
 ##Technologies
 
