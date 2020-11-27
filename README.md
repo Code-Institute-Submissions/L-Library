@@ -29,7 +29,8 @@ any unnecessary documents, reading texts that are advertising or filing the form
 
 ##Sceleton
 
-Using Balsamiq these wireframes were created to support the idea of a site.
+Using Balsamiq these wireframes were created to open up the idea how the site looks like in three sizes of screens.
+https://drive.google.com/file/d/1WHe8Y-yPn44CRQOZCXqYZrR9lqtLl93O/view?usp=sharing
 
 ##Surface
 
