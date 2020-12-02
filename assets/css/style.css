@@ -5,10 +5,7 @@
 html, body {
     scroll-behavior: smooth;
     height: 100vh;
-
     background: url('../images/giphy.gif') no-repeat bottom right fixed;
-    opacity: 0.6;
-    backdrop-filter: blur(5px); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -31,23 +28,23 @@ html, body {
     font-size: 200;
     text-align: center;
     color: whitesmoke;
-    opacity: 1.0;
+    
 }
 
 .name {
     text-align: center;
     font-size: 500;
-    opacity: 1.0;
+   
 }
 
 .help,.aboutUs {
     color: whitesmoke;
-    opacity: 1.0;
+    
 }
 
 
 
 #library_search {
     width: 100%;
-    opacity: 1.0;
+    
 }
