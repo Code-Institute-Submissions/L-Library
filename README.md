@@ -22,6 +22,8 @@ I am a freelance writer and sometimes have to use a quick search just to confirm
 User 3:
 I am a passionate reader and this application is useful as sometimes I like to explore particular theme or subject matter and a keyword search let me find the books that I am interested in just by one click.
 
+User 4:
+I noticedd it is very easy to use the site on a smartphone and i am excited to play around with it on my daily commute.
 
 ##Strategy
 
