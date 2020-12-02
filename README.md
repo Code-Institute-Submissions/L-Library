@@ -3,12 +3,15 @@
 
 The project is made for general audience to use the site as inspirational and motivational start,
 continuing with confidently using it as a source of knowledge, or to benefit one’s studies,
-or to have some fun reading.
+or to have some fun reading. The site is for the users to find quick and easy answers, when he/she wants to find a book using only a keyword.
+The user can also search for presents as books when they know the theme or subject matter that person is interested in.
+There is a form to fill or the links of social media to use and other options for user to contact the site so he/she can report the issue on a site or get any other answer to any detailed question.
 
 ##UX
 
 As the site was built to meet simple aims of communication and information, the structure is simple
 and meeting the needs of those working on study projects as well as those who consider being just a reader.
+The navigation is simple in leading the user through the site and the whole structure is not overcrowded for user to get the expectd result straight away.
 
 ##User Stories
 
@@ -63,8 +66,26 @@ Balsamiq – to create sketches of a future site.
 
 ##Features
 
+ ##Existing Features
+    As mentioned above the features of the project are quite modest to meet the goal of simplicity and encourage the users to find the answers quick and easy.
+    1. Navigation with a smooth scrolling is made for users to get to the section they search for.
+    2. The search uses keywords as a trigger and gets the user five responses that he can continue to manipulate.
+    3. The help form invites the regular user to report an issue if there is one, but as lets the user to send an email message it can be anything.
+    4. The footer is used to put the contact and social media information for purposes of overall decency of aesthetics and to give a user an option to find further information of creators and site administrators.
+
+
 ##Features left to implement
 
 The features that have to be added is: a possibility to chat (between members, or getting online consultation), 
 possibility of becoming a member (that can be done just by signing in), 
-possibility of becoming a sponsor or advanced member (that have to pay for membership and have some advanced benefits).
+possibility of becoming a sponsor or advanced member (that have to pay for membership and have some advanced benefits) or  patreon.
+In the forseeable future this site overall can be(and hopfully will be) added to the bigger project as a feature itself.
+
+##Testing
+
+
+##Deployement
+
+
+All content on this site is written by me.
+The background gif - https://giphy.com/gifs/tamu-book-library-libraries-7E8lI6TkLrvvAcPXso
