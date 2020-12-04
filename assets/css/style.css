@@ -48,3 +48,7 @@ html, body {
     width: 100%;
     
 }
+
+.title, .author, .first, .publisher {
+    color: whitesmoke;
+}

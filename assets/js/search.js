@@ -3,8 +3,8 @@ function getInformation(){
     fetch("https://openlibrary.org/search.json?q="+document.getElementById(`library_search`).value)
     .then(a=>a.json())
     .then(response=>{
-        for(var i=0;i<10;i++){
-            document.getElementById(`output`).innerHTML+="<h2>"+response.docs[i].title+"</h2>"+response.docs[i].author_name
+        for(var i=0;i<5;i++){
+            document.getElementById(`output`).innerHTML+="<h4 class=`title`>"+response.docs[i].title+"<h4 class=`author`>"+response.docs[i].author_name+"<h4 class=`first`>"+response.docs[i].first_publish_year+"<h4 class=`publisher`>"+response.docs[i].publisher
         }
     });
    
