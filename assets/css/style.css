@@ -33,7 +33,7 @@ html, body {
 
 .navbar-brand, .nav-link, .about-us-heading, .search-heading, .help-heading {
     font-family: "Playfair+Display", sans-serif;
-    font-size: 20px;
+    
     text-align: center;
     color: #f5f5f5;
     
@@ -41,7 +41,7 @@ html, body {
 
 .name {
     text-align: center;
-    font-size: 50px;
+    
    
 }
 
