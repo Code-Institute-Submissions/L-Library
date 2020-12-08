@@ -5,7 +5,7 @@
 html, body {
     scroll-behavior: smooth;
     height: 100vh;
-    
+    background: url('../images/giphy.gif') no-repeat bottom right fixed;
     background-size: cover;
     background-color: #a9a9a9;   
     align-items: center;
