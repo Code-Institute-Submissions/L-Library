@@ -20,6 +20,19 @@ html, body {
     position: sticky;
 }
 
+.navbar-brand, .nav-link, .about-us-heading, .search-heading, .help-heading {
+    font-family: "Playfair+Display", sans-serif;
+    font-size: 200px;
+    text-align: center;
+    color: #f5f5f5;
+    
+}
+
+.name {
+    text-align: center;
+    font-size: 500px;
+   
+}
 
 .help,.aboutUs {
     color: #f5f5f5;
