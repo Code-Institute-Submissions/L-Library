@@ -123,15 +123,20 @@ to correctly deploy it to GitHub.
 
 ## Problems and Bugs
 
+The Project was simple to write but adding position: flex in css made all the features to appear in a row and deleting that made everything look as it should using bootstrap grid.
 The first issues where met trying to call API from a chosen website, and as I had the knowledge of begginer used different sources and advices to complete the task. 
 Whatching Youtube videos and thinking about the lessons learnt about the JavaScript logic I managed to adjust the given code to call an API and make it work. The Problems were as listed:
 -API gave a different result for response.docs[i].title[0] and response.docs[i].title, that was solved by myself with the help of Code Institute Tutor support.
 -Mentor helped with using html in js file.
 -took some time from deploying to actually working
--had minor problem with the confusion about HTTP and HTTPS, that could not be solved without a Slack community help. 
+-had minor problem with the confusion about HTTP and HTTPS, that could not be solved without a Slack community help, the advice to add S to HTTP source that I was trying to use for API was succesfully applied.
+-playing around with URL of my API in a simple browser let me better understand the usage of API and CORB message led me to the documentation that was useful and got everything working.
 The other JS file was created to get an email from a user and the Code Institute Course code was used for that and adjusted to meet the project goals.
-the issue I had only with the Email.js template, though it was a minor problem of not puting right placeholders together and my mentor helped very much with that too.
+the issue I had only with the Email.js template, though it was a minor problem of not puting right placeholders together and my mentor helped very much with that too. Was also confused abou using right semicolons in right places as can be seen in screenshots.
 Both JS files had other minor issues that were solved by console.log command and dev tools console messages to find solutions. 
+When running the code through Validators I got Parse Error Messgaes which were solved adding needed semicolons or other.
+
+The error message screenshots can be found here - https://drive.google.com/drive/folders/1Jik9amBA8TfdhYH3Yz_X4ezPwsTFBEyx?usp=sharing
 
 
 ## Acknowledgments
