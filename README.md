@@ -138,6 +138,8 @@ When running the code through Validators I got Parse Error Messgaes which were s
 
 The error message screenshots can be found here - https://drive.google.com/drive/folders/1Jik9amBA8TfdhYH3Yz_X4ezPwsTFBEyx?usp=sharing
 
+The idea to use a fast gif for the overall attractiveness of a site was a mistake as I thought I will be able to blur it easily and left this issue to the last minute.
+But it was the most difficult thing to solve and that is why the web site can look unfinished.
 
 ## Acknowledgments
 
