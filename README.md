@@ -120,6 +120,8 @@ Samsung GalaxyS10 - Chrome
 
 This site was created using Gitpod and deployed to GitHub pages. The landing page has to be index.html, 
 to correctly deploy it to GitHub.
+The deployment process was used from the very begining of the project using command line,
+adding new features step by step. The process went thoroughly except times when tI had to wait for th features to be deployed.
 
 ## Problems and Bugs
 
