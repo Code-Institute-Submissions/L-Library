@@ -37,7 +37,7 @@ html, body {
 	padding: 2rem;
 }
 
-/* I tried to bblur the background using only css
+/* I tried to blur the background using only css
 .body::after,{
     content: "";
     background: url('../images/giphy.gif') no-repeat bottom right fixed;
