@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,800;1,400;1,700&display=swap');
 
-
+/*basic style of project*/
 html, body {
     scroll-behavior: smooth;
     height: 100vh;   
@@ -11,6 +11,8 @@ html, body {
     justify-content: center;
     position: relative;
 }
+
+/*the code copied from @Eentyret_mentor pen he created and send me in Slack*/
 
 * {
 	padding: 0;
@@ -35,7 +37,8 @@ html, body {
 	padding: 2rem;
 }
 
-/*.body::after,{
+/* I tried to bblur the background using only css
+.body::after,{
     content: "";
     background: url('../images/giphy.gif') no-repeat bottom right fixed;
     opacity: 0.5;
@@ -48,7 +51,7 @@ html, body {
 
 }*/
 
-
+/*navigation style*/
 .navbar {
     position: sticky;
 }
@@ -61,16 +64,18 @@ html, body {
     
 }
 
-
+/* input width*/
+#library_search {
+    width: 100%;
+    
+}
+/*text color*/
 .help,.aboutUs {
     color: #f5f5f5;
     
 }
 
-#library_search {
-    width: 100%;
-    
-}
+
 
 .title {
     color: #f5f5f5;
