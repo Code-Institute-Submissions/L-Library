@@ -12,7 +12,7 @@ html, body {
     position: relative;
 }
 
-.body::after, .html::after {
+.body::after,{
     content: "";
     background: url('../images/giphy.gif') no-repeat bottom right fixed;
     opacity: 0.5;
