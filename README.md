@@ -1,32 +1,41 @@
 ## L-Library
-###### Milstone Project 2: Interacted Fronted Development - Code Institute
+# Milstone Project 2: Interacted Fronted Development - Code Institute
 
 The project is made for general audience to use the site as inspirational and motivational start,
 continuing with confidently using it as a source of knowledge, or to benefit one’s studies,
-or to have some fun reading. The site is for the users to find quick and easy answers, when he/she wants to find a book using only a keyword.
-The user can also search for presents as books when they know the theme or subject matter that person is interested in.
-There is a form to fill or the links of social media to use and other options for user to contact the site so he/she can report the issue on a site or get any other answer to any detailed question.
+or to have some fun reading. The site is for the users to find quick and easy answers, 
+when he/she wants to find a book using only a keyword.
+The user can also search for presents as books when they know the theme or subject matter 
+that person is interested in.
+There is a form to fill or the links of social media to use and other options for user to contact the site
+so he/she can report the issue on a site or get any other answer to any detailed question.
 
 ## UX
 
 As the site was built to meet simple aims of communication and information, the structure is simple
 and meeting the needs of those working on study projects as well as those who consider being just a reader.
-The navigation is simple in leading the user through the site and the whole structure is not overcrowded for user to get the expectd result straight away.
+The navigation is simple in leading the user through the site and the whole structure 
+is not overcrowded for user to get the expectd result straight away.
 
 ## User Stories
 
 User 1:
-Me and my friends have a book club and we meet once a month to disscuss the books we are reading or read already, sometimes we go on playing mind games about books or writers.
-I think the application like this would help us in any arguments as the search of books and authors gives the basic and quick results.
+Me and my friends have a book club and we meet once a month to disscuss the books we are reading or read already, 
+sometimes we go on playing mind games about books or writers.
+I think the application like this would help us in any arguments as the search of books and authors 
+gives the basic and quick results.
 
 User 2:
-I am a freelance writer and sometimes have to use a quick search just to confirm my assumptions on titles or authors, this site gives me an opportunity to easy find an answer.
+I am a freelance writer and sometimes have to use a quick search just to confirm my assumptions on titles or authors, 
+this site gives me an opportunity to easy find an answer.
 
 User 3:
-I am a passionate reader and this application is useful as sometimes I like to explore particular theme or subject matter and a keyword search let me find the books that I am interested in just by one click.
+I am a passionate reader and this application is useful as sometimes I like to explore particular theme
+or subject matter and a keyword search let me find the books that I am interested in just by one click.
 
 User 4:
-I noticedd it is very easy to use the site on a smartphone and i am excited to play around with it on my daily commute.
+I noticedd it is very easy to use the site on a smartphone and i am excited to play around with it 
+on my daily commute.
 
 ## Strategy
 
@@ -50,8 +59,8 @@ https://drive.google.com/file/d/1WHe8Y-yPn44CRQOZCXqYZrR9lqtLl93O/view?usp=shari
 
 ## Surface
 
-The colour palette that was chosen for the project is deliberately contrasting and quite modest in the shades used. Pinterest platform is used to find out matching colour palette.
-the background gif was taken from giphy.com
+The colour palette that was chosen for the project is deliberately contrasting and quite modest in the shades used. 
+Pinterest platform is used to find out matching colour palette. The background gif was taken from giphy.com
 
 ## Technologies
 
@@ -67,11 +76,15 @@ Balsamiq – to create sketches of a future site.
 ## Features
 
  ## Existing Features
-    As mentioned above the features of the project are quite modest to meet the goal of simplicity and encourage the users to find the answers quick and easy.
+    As mentioned above the features of the project are quite modest to meet the goal of simplicity 
+    and encourage the users to find the answers quick and easy.
     1. Navigation with a smooth scrolling is made for users to get to the section they search for.
     2. The search uses keywords as a trigger and gets the user five responses that he can continue to manipulate.
-    3. The help form invites the regular user to report an issue if there is one, but as lets the user to send an email message it can be anything.
-    4. The footer is used to put the contact and social media information for purposes of overall decency of aesthetics and to give a user an option to find further information of creators and site administrators.
+    3. The help form invites the regular user to report an issue if there is one, 
+    but lets the user to send an email message it can be anything.
+    4. The footer is used to put the contact and social media information 
+    for purposes of overall decency of aesthetics and to give a user an option 
+    to find further information of creators and site administrators.
 
 
 ## Features left to implement
@@ -94,16 +107,39 @@ Mcbook - Saafari
 IPhone 8 - Saafari
 MSI 62 8RD - Chrome, Internet Explorer,
 Huawei p10 - chrome
+Samsung GalaxyS10 - Chrome 
+
+ Html, css and JS were ran through the validators: -W3C HTML Validator: 
+ This validator checks the markup validity of Web documents in HTML. 
+ -W3C CSS Validator: This validator checks the markup validity of Web documents in CSS.
+ https://jshint.com/
+ for more go to Problems and Bugs.
 
 
 ## Deployement
 
-This site was created using Gitpod and deployed to GitHub pages. The landing page has to be index.html, to correctly deploy it to GitHub.
+This site was created using Gitpod and deployed to GitHub pages. The landing page has to be index.html, 
+to correctly deploy it to GitHub.
+
+## Problems and Bugs
+
+The first issues where met trying to call API from a chosen website, and as I had the knowledge of begginer used different sources and advices to complete the task. 
+Whatching Youtube videos and thinking about the lessons learnt about the JavaScript logic I managed to adjust the given code to call an API and make it work. The Problems were as listed:
+-API gave a different result for response.docs[i].title[0] and response.docs[i].title, that was solved by myself with the help of Code Institute Tutor support.
+-Mentor helped with using html in js file.
+-took some time from deploying to actually working
+-had minor problem with the confusion about HTTP and HTTPS, that could not be solved without a Slack community help. 
+The other JS file was created to get an email from a user and the Code Institute Course code was used for that and adjusted to meet the project goals.
+the issue I had only with the Email.js template, though it was a minor problem of not puting right placeholders together and my mentor helped very much with that too.
+Both JS files had other minor issues that were solved by console.log command and dev tools console messages to find solutions. 
+
 
 ## Acknowledgments
 
-There were many sources used to create this website, such as openlibrary.org/developers/api, w3schools.com, getbootstrap.com, courses.codeinstitute.com. I also read some material in the websites like pinterest or Wikipedia.
-Have to add that this project would not be possible without my mentor Aaron Sinnott, Code Institute tutors and Slack.
+There were many sources used to create this website, such as openlibrary.org/developers/api, w3schools.com, 
+getbootstrap.com, courses.codeinstitute.com. I also read some material in the websites like pinterest or Wikipedia.
+Have to add that this project would not be possible without my mentor Aaron Sinnott, 
+Code Institute tutors and Slack.
 
 ## Content
 
