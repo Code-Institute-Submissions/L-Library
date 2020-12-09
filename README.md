@@ -76,15 +76,15 @@ Balsamiq – to create sketches of a future site.
 ## Features
 
  ## Existing Features
-    As mentioned above the features of the project are quite modest to meet the goal of simplicity 
-    and encourage the users to find the answers quick and easy.
-    1. Navigation with a smooth scrolling is made for users to get to the section they search for.
-    2. The search uses keywords as a trigger and gets the user five responses that he can continue to manipulate.
-    3. The help form invites the regular user to report an issue if there is one, 
-    but lets the user to send an email message it can be anything.
-    4. The footer is used to put the contact and social media information 
-    for purposes of overall decency of aesthetics and to give a user an option 
-    to find further information of creators and site administrators.
+As mentioned above the features of the project are quite modest to meet the goal of simplicity 
+and encourage the users to find the answers quick and easy.
+1. Navigation with a smooth scrolling is made for users to get to the section they search for.
+2. The search uses keywords as a trigger and gets the user five responses that he can continue to manipulate.
+3. The help form invites the regular user to report an issue if there is one, 
+but lets the user to send an email message it can be anything.
+4. The footer is used to put the contact and social media information 
+for purposes of overall decency of aesthetics and to give a user an option 
+to find further information of creators and site administrators.
 
 
 ## Features left to implement
